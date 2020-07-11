@@ -5,10 +5,10 @@ class Form extends Component {
 
         return(
     
-            <div className="formBlock" name="contact">
+            <div className="formBlock">
             <Title title="Get In Touch" />
                 
-                <form className="myform" action="POST" data-netlify="true">
+                <form className="myform" name="contact" action="POST" data-netlify="true">
                     <label>
                         <input type="text" placeholder="Name"  name="name"/>
                     </label>
