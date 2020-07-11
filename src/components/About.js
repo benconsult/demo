@@ -3,7 +3,7 @@ import React from 'react'
 //import Title from './Title';
 import Banner from './Banner'
 import Hero from './Hero'
-import { Checkbox } from 'material-ui'
+//import { Checkbox } from 'material-ui'
 
 //import {Link } from 'react-router-dom'
 export default function About() {

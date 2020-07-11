@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Title from './Title';
-import {FaMobileAlt,FaLaptop,FaLock, FaSchool, FaServicestack, FaPhone, FaBuysellads, FaMobile, FaShoppingCart} from 'react-icons/fa';
+import {FaMobileAlt,FaLaptop,FaLock, FaSchool, FaServicestack,FaShoppingCart} from 'react-icons/fa';
 //import {FaConnectdevelop,FaUnlockAlt,FaDesktop,FaEnvelope,FaTrain,FaPhone,FaChevronUp, FaMobileAlt, FaShuttleVan,FaBeer,FaFacebookF,FaExpeditedssl } from 'react-icons/fa';
 
 export default class Services extends Component {
