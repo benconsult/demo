@@ -7,8 +7,15 @@ class Form extends Component {
     
             <div className="formBlock">
             <Title title="Get In Touch" />
-                
+            
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
+
                 <form className="myform" name="contact" action="POST" data-netlify="true">
+                   <input type="hidden" name="form-name" value="contact" />
                     <label>
                         <input type="text" placeholder="Name"  name="name"/>
                     </label>
