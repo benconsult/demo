@@ -1,6 +1,10 @@
 import React, {Component} from 'react';
 import Title from './Title';
+
+
 class Form extends Component {
+
+    
      render(){
 
         return(
@@ -11,7 +15,8 @@ class Form extends Component {
     <form name="contact" netlify netlify-honeypot="bot-field" hidden>
       <input type="text" name="name" />
       <input type="email" name="email" />
-      <textarea name="message"></textarea>
+      <input type="number" name="phoneNumber" />
+      <textarea name="message" type="text"></textarea>
     </form>
 
                 <form className="myform" name="contact" action="POST" data-netlify="true">
@@ -20,10 +25,10 @@ class Form extends Component {
                         <input type="text" placeholder="Name"  name="name"/>
                     </label>
                     <label>
-                        <input type="text"  placeholder="Email"  name="email"/>
+                        <input type="email"  placeholder="Email"  name="email"/>
                     </label>
                     <label>
-                        <input type="text" placeholder="Phone Number" name="phoneNumber"/>
+                        <input type="number" placeholder="Phone Number" name="phoneNumber"/>
                     </label>
                     <label>
                         <textarea className="messageZone"type="text"  placeholder="Message" name="message"></textarea>
