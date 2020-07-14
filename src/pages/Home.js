@@ -12,9 +12,9 @@ export default function Home () {
     return (
    <> 
     <Hero>
-        <Banner  name="home" title="solutions through technology" subtitle="Developing Web & Mobile Solutions">
+        <Banner  name="home" title="solutions through technology" subtitle="Developing Web & Mobile Solutions" >
          
-         <Link className="btn-primary" activeClass="active" to="contact" spy={true} smooth={true} duration={100} >Get In Touch</Link>
+         <Link className="btn-primary" activeClass="active" to="contact1" spy={true} smooth={true} duration={300} >Get In Touch</Link>
                   
         </Banner>
     </Hero>

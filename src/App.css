@@ -578,7 +578,7 @@ light green: #A3C4BC
   
 }
 
-input[type="text"]{
+input{
   width: 100%;
   border: 1px solid #d9d9d9;
   display: block;
